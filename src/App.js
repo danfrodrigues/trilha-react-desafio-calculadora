@@ -70,8 +70,8 @@ const App = () => {
         setCurrentNumber('0')
         setOperation('/')
     }else {
-      const mult = Number(firstNumber) / Number(currentNumber);
-      setCurrentNumber(String(mult))
+      const div = Number(firstNumber) / Number(currentNumber);
+      setCurrentNumber(String(div))
       setOperation('')
     }
 
